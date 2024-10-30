@@ -8,9 +8,9 @@ const NavBar = () => {
     return <div className="nav-bar">
         <a href="/">
             <ImageFrame 
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjKuaHuT1Q00XTU3DBvCgN5TT1n7KHb70WyA&s"
-                alt="logo-greenlander"
-                width="50"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGskoNoLdFtrUiw-gvUvQ3tsDYBTBsn8fqkA&s"
+                alt="logo-Louis Vuitton"
+                width="60"
             />
         </a>
         <Menu />

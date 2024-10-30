@@ -6,7 +6,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import './Product.styles.scss';
 import EmblaCarousel from '../../components/EmblaCarousel/EmblaCarousel';
 import { useContext, useEffect, useState } from 'react';
-import { catalogMen } from '../../data/catalog';
+import { catalogJoyeria, catalogKids, catalogMen, catalogWomen,  } from '../../data/catalog';
 import { ProductCardProps } from '../../components/ProductCard/ProductCard';
 import ReactStars from 'react-stars';
 import { SubmitHandler, useForm } from 'react-hook-form';
@@ -27,7 +27,7 @@ const ProductPage = () => {
     const [ product, setProduct ] = useState<ProductCardProps>();
 
     useEffect(() => {
-        const result = catalogMen.find((product) => {
+        const result = [...catalogMen, ...catalogWomen, ...catalogKids,...catalogJoyeria,  ].find((product) => {
             return product.id === params.productId
         });
         if (result) {
@@ -121,9 +121,8 @@ const ProductPage = () => {
         <label>Productos relacionados:</label>
         <Catalog productList={catalogMen.slice(1, 4)}/>
         <ToastContainer
-            position="top-right"
-            autoClose={5000}
-            theme="light" />
+            />
+
     </div>
 };
 

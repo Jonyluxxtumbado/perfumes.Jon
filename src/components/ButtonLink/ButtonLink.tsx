@@ -9,6 +9,7 @@ export interface ButtonLinkProps {
     label?: string | null;
     className?: string;
     iconAfter?: () => React.ReactElement;
+    
 }
 
 const ButtonLink: FC<ButtonLinkProps>

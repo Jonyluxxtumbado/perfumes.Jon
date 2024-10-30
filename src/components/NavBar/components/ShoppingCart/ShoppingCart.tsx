@@ -22,7 +22,7 @@ const ShoppingCart = () => {
                 productList.length > 0 ? 
                 String(count) : 
                 ''}>
-            <RiShoppingCart2Line />
+            <RiShoppingCart2Line />         
         </IconLink>
     </div>
 }

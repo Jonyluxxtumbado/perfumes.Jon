@@ -5,7 +5,7 @@ const Menu = () => {
         <a href="/hombre">Hombre</a>
         <a href="/mujer">Mujer</a>
         <a href="/ninos">Niños</a>
-        <a href="/ofertas">Ofertas</a>
+        <a href="/joyeria">joyeria</a>
     </div>
 }
 

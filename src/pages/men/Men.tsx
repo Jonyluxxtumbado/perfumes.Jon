@@ -3,13 +3,14 @@ import { Hero } from "../../components/Hero/Hero";
 import { catalogMen } from "../../data/catalog";
 
 const heroMenPage = {
-    imageUrl: 'https://cuadra.com.mx/cdn/shop/files/H310BOA_1080x1080.jpg?v=1710269551',
-    imageText: 'Nueva temporada en chamarras de hombre',
-    headline: 'Nueva temporada otoño-invierno en chamarras para hombre',
+    imageUrl: 'https://assets.turbologo.com/blog/es/2020/01/19132726/louis-vuitton-cover-958x575.png',
+    imageText: 'Nueva temporada de modas',
+    headline: 'The best of the best for the best',
     button: {
         href: '/',
-        label: 'VER AHORA'
+     
     }
+    
 };
 
 const MenPage = () => {
